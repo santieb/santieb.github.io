@@ -1,14 +1,15 @@
 * {
   color: #000;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Merriweather', serif;
 }
 
 .body {
-  background-color: #332f2c;
+  background-color: #282c34;
   margin: 0;
 }
 
 .main {
-  outline: 5px solid #369;
   display: flex;
   justify-content: center;
   padding: 5em;
@@ -27,12 +28,13 @@
 
 .me {
   padding-top: 2rem;
-  position: sticky;
   display: block;
   flex-direction: column;
   display: flex;
   align-items: center;
-  padding: 3rem
+  padding: 3rem;
+  position: sticky;
+  top: 0;
 }
 
 .header__me__img {
@@ -50,60 +52,8 @@
   border-bottom-right-radius: 50px;
   background: #dadada;
   text-align: center;
-  display: block;
   width: 55rem;
   flex-direction: column;
   display: flex;
   justify-content: center;
 }
-
-
-.section {
-  display: flex;
-  width: 100%;
-  margin-top: 1em;
-  flex-direction: column;
-  align-items: center;
-  background-color: #32f
-}
-
-.project {
-  border-top-right-radius: 50px;
-  border-bottom-right-radius: 50px;
-  background-color: #282c34 ;
-  text-align: center;
-  width: 50rem;
-  height: 20vh;
-}
-
-.project__data {
-  margin:  0 auto;
-  padding: 3rem;
-}
-
-.project__info{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.project__technolgies {
-  background-color: #fff;
-  border-radius: 5rem;
-  display: inline-block;
-  padding: 0.5rem;
-}
-
-.project__title {
-  padding: 0;
-  margin: 0;
-  color: #32f;
-}
-
-.project__description {
-  padding: 0;
-  margin: 0;
-  color: #32f;
-}
-
