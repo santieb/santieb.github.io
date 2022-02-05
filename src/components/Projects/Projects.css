@@ -1,11 +1,23 @@
 .gallery {
   width: 100%;
   max-width: 1200px;
-  height: 430px;
+  height: 530px;
+  max-height: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   margin: auto;
+  overflow-y: scroll;
+  margin-top: 2em;
+}
+
+.gallery::-webkit-scrollbar{
+  width: 10px;
+}
+
+.gallery::-webkit-scrollbar-thumb{
+  background-color: gray;
+  border-radius: 10px;
 }
 
 .section-main {
