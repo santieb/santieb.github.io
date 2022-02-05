@@ -1,0 +1,32 @@
+.header__me {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background: #fff;
+  height: 83vh;
+}
+
+.me {
+  padding-top: 2rem;
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  padding: 3rem;
+}
+
+.header__me__img {
+  margin-bottom: 2rem;
+  width: 10rem;
+}
+
+.icons {
+  padding: 1em;
+}
+
+.header__title {
+  padding: 0.6em 0em 0.3em 0em;
+}
+
+.header__des {
+  padding: 0.5em 0em 1em 0em;
+}

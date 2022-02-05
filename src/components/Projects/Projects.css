@@ -1,0 +1,25 @@
+.gallery {
+  width: 100%;
+  max-width: 1200px;
+  height: 430px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+
+.section-main {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  width: 55rem;
+  height: 83vh;
+}
+
+.header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 1.5em;
+  margin: 1rem 0 0 4rem;
+}
