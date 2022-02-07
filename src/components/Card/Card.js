@@ -7,10 +7,10 @@ const Card = ({ img, title, description, demo=false, urlCode, urlDemo='' }) => {
         <img className="img-Project" src={img} alt="project"></img>
         <h4>{title}</h4>
         <p>{description}</p>
-        <a class="icons" title="linkedin" href={urlCode}>
+        <a class="icons" title="code" href={urlCode}>
           <img className="icons-card" src={icons.code} alt="Code"/>
         </a>
-        <a class="icons" title="linkedin" href={urlDemo}>
+        <a class="icons" title="demo" href={urlDemo}>
           <img className="icons-card" src={icons.net} alt="Demo"/>
         </a>
     </div>

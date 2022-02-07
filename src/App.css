@@ -13,9 +13,21 @@
   height: 83vh;
 }
 
-.navigation {
+.nav {
   position: absolute;
+  margin-left: 90rem;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.items {
+  display: flex;
+  list-style: none;
   display: flex;
   flex-direction: column;
-  margin-left: 90rem;
+}
+
+.items-icon {
+  padding: 0.8em;
+  cursor: pointer
 }
