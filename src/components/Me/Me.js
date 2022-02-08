@@ -1,4 +1,5 @@
 import icons from '../../assets/icons/icons.js'
+import Tech from './Tech'
 
 const Me = () => {
   return (
@@ -7,14 +8,23 @@ const Me = () => {
     <h2>Sobre mi</h2>
   </div>
   <div>
-    <img className="icons-card" src={icons.html} alt="Demo"/>
-    <img className="icons-card" src={icons.css} alt="Demo"/>
-    <img className="icons-card" src={icons.js} alt="Demo"/>
-    <img className="icons-card" src={icons.node} alt="Demo"/>
-    <img className="icons-card" src={icons.mongo} alt="Demo"/>
-    <img className="icons-card" src={icons.mariadb} alt="Demo"/>
-    <img className="icons-card" src={icons.aws} alt="Demo"/>
-    <img className="icons-card" src={icons.docker} alt="Demo"/>
+    <p className="me__description">
+      Hola! Mi nombre es Santiago Barreto, y soy de Argentina. Soy una persona que siempre está buscando aprender nuevas cosas, que le apasiona la programación y la tecnologia. Me especializo principalmente en el desarrollo web backend 
+    </p>
+  </div>
+
+  <div>
+  <h3 className="me_title">Tecnologías</h3>
+    <div className="technologies">
+      <Tech name="HTML" icon={icons.html} ></Tech>
+      <Tech name="CSS" icon={icons.css} ></Tech>
+      <Tech name="JS" icon={icons.js} ></Tech>
+      <Tech name="Node" icon={icons.node} ></Tech>
+      <Tech name="MongoDB" icon={icons.mongo} ></Tech>
+      <Tech name="MariaDB" icon={icons.mariadb} ></Tech>
+      <Tech name="AWS" icon={icons.aws} ></Tech>
+      <Tech name="Docker" icon={icons.docker} ></Tech>
+    </div>
   </div>
   </>
   )

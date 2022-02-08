@@ -1,0 +1,24 @@
+.technologies {
+  display: flex;
+  flex-direction: row;
+}
+
+.tech {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.me__description {
+  font-size: 1.5rem;
+  padding: 4rem;
+}
+
+.me_title {
+  font-size: 2rem;
+}
+
+.tech__icon {
+  width: 64px;
+  height: 64px;
+}
