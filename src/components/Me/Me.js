@@ -1,7 +1,9 @@
 import icons from '../../assets/icons/icons.js'
 import Tech from './Tech'
+import Carousel from 'react-elastic-carousel'
 
 const Me = () => {
+
   return (
   <>
   <div className="header">     
@@ -9,13 +11,14 @@ const Me = () => {
   </div>
   <div>
     <p className="me__description">
-      Hola! Mi nombre es Santiago Barreto, y soy de Argentina. Soy una persona que siempre está buscando aprender nuevas cosas, que le apasiona la programación y la tecnologia. Me especializo principalmente en el desarrollo web backend 
+      lorem ipsum dolor sit amet, consectetur adipis lorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipislorem ipsum dolor sit amet, consectetur adipis
     </p>
   </div>
-
-  <div>
-  <h3 className="me_title">Tecnologías</h3>
-    <div className="technologies">
+  <div className="me_technologies">
+    <div>
+      <h3 className="me_title">Tecnologías</h3>
+    </div>
+    <Carousel itemsToShow={3} itemsToScroll={3} infiniteLoop={true} className="carousel">
       <Tech name="HTML" icon={icons.html} ></Tech>
       <Tech name="CSS" icon={icons.css} ></Tech>
       <Tech name="JS" icon={icons.js} ></Tech>
@@ -24,7 +27,7 @@ const Me = () => {
       <Tech name="MariaDB" icon={icons.mariadb} ></Tech>
       <Tech name="AWS" icon={icons.aws} ></Tech>
       <Tech name="Docker" icon={icons.docker} ></Tech>
-    </div>
+    </Carousel>
   </div>
   </>
   )

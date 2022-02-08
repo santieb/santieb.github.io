@@ -6,19 +6,32 @@
 .tech {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 1rem;
+  text-align: center;
 }
 
 .me__description {
   font-size: 1.5rem;
-  padding: 4rem;
+  padding: 3rem 3rem;
 }
 
 .me_title {
   font-size: 2rem;
+  padding: 1rem
 }
 
 .tech__icon {
   width: 64px;
   height: 64px;
+}
+.tech__name {
+  padding: 0.5rem;
+  font-size: 1rem;
+}
+
+.me_technologies {
+  padding: 0.5rem;
+}
+.carousel {
+  padding: 0.5rem 4rem;
 }
