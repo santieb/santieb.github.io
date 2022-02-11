@@ -15,6 +15,10 @@
   text-align: center;
   transition: all 0.25s;
   background-color: #fff;
+  display: block;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
 }
 
 .card:hover {
@@ -30,11 +34,15 @@
 .card h4 {
   font-weight: 600;
   font-size: 1.2em;
-  padding-bottom: 10px;
+  padding: 5px;
 }
 
 .card p{
   padding: 0 1rem;
   font-size: 16px;
   font-weight: 300;
+}
+
+.list-card {
+  margin: 0.5rem;
 }
