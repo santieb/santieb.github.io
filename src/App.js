@@ -13,25 +13,13 @@ const App = () => {
       <div class="presentation">
         <Main id={getState}/>
       </div>
-      <nav class="nav">
-        <ul className="items">
-          <li>
-            <a onClick={() => SetState(0)}>
-              <img className="items-icon" src={icons.home} alt="Home"/>
-            </a>
-          </li>
-          <li>
-            <a onClick={() => SetState(1)}>
-              <img className="items-icon" src={icons.user} alt="About me"/>
-            </a>
-          </li>
-          <li>
-            <a onClick={() => SetState(2)}>
-              <img className="items-icon" src={icons.project} alt="Projects"/>
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="menu-nav">
+      <ul>
+        <li><a onClick={() => SetState(0)}><img src={icons.home}></img></a></li>
+        <li><a onClick={() => SetState(1)}><img src={icons.user}></img></a></li>
+        <li><a onClick={() => SetState(2)}><img src={icons.project}></img></a></li>
+      </ul>
+      </div>
     </div>
   )
 }

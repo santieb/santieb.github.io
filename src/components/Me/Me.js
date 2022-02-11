@@ -3,7 +3,6 @@ import Tech from './Tech'
 import Carousel from 'react-elastic-carousel'
 
 const Me = () => {
-
   return (
   <>
   <div className="header">     
@@ -18,11 +17,11 @@ const Me = () => {
     <div>
       <h3 className="me_title">Tecnologías</h3>
     </div>
-    <Carousel itemsToShow={3} itemsToScroll={3} infiniteLoop={true} className="carousel">
+    <Carousel itemsToShow={3} itemsToScroll={3} infiniteLoop={true} className="carousel" >
       <Tech name="HTML" icon={icons.html} ></Tech>
       <Tech name="CSS" icon={icons.css} ></Tech>
-      <Tech name="JS" icon={icons.js} ></Tech>
-      <Tech name="Node" icon={icons.node} ></Tech>
+      <Tech name="JavaScript" icon={icons.js} ></Tech>
+      <Tech name="Node.js" icon={icons.node} ></Tech>
       <Tech name="MongoDB" icon={icons.mongo} ></Tech>
       <Tech name="MariaDB" icon={icons.mariadb} ></Tech>
       <Tech name="AWS" icon={icons.aws} ></Tech>

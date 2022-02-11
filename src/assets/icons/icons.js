@@ -14,6 +14,7 @@ import node from './node.png'
 import docker from './docker.png'
 import aws from './aws.png'
 import mariadb from './mariadb.png'
+import me2 from './user1.png'
 
 const icons = {
   "me": me,
@@ -31,7 +32,8 @@ const icons = {
   "js": js,
   "node": node,
   "aws": aws,
-  "mariadb": mariadb
+  "mariadb": mariadb,
+  "me2": me2
 }
 
 export default icons
