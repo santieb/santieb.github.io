@@ -25,7 +25,7 @@ const Projects = () => {
       urlDemo={''}>
     </Card>
     </div>
-    Más proyetos en <a href="https://github.com/santieb">github.com/santieb</a>
+    Más proyetos en <a className="githuburl" href="https://github.com/santieb">github.com/santieb</a>
   </div>
   )
 }

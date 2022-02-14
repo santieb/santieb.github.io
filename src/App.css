@@ -15,7 +15,6 @@
 
 .nav {
   position: absolute;
-  margin-left: 90rem;
   background-color: #fff;
   border-radius: 20px;
 }
@@ -38,11 +37,10 @@
 }
 
 .menu-nav ul {
-    margin-left: 90rem;
     position: absolute;
     transform: translate(-50%, -50%);
     margin-left: 10vh;
-    margin-top: 10vh;
+    margin-top: 15vh;
     display: flex;
     flex-direction: column;
 }
@@ -81,7 +79,7 @@
     background-color: #3b5999;
 }
 .menu-nav ul li:nth-child(2) a:hover {
-    background-color: #55acee;
+    background-color: #55ee5d;
 }
 .menu-nav ul li:nth-child(3) a:hover {
     background-color: #e4405f;

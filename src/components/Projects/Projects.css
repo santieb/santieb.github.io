@@ -35,3 +35,7 @@
   font-size: 1.5em;
   margin: 1rem 0 0 4rem;
 }
+
+.githuburl:hover {
+  color: blue;
+}

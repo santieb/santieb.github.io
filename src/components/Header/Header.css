@@ -3,6 +3,7 @@
   border-bottom-left-radius: 50px;
   background: #fff;
   height: 83vh;
+  display: inline-block;
 }
 
 .me {
