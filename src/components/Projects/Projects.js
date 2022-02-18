@@ -25,7 +25,10 @@ const Projects = () => {
       urlDemo={''}>
     </Card>
     </div>
+    <div className="footer-projects">
     Más proyetos en <a className="githuburl" href="https://github.com/santieb">github.com/santieb</a>
+    </div>
+    
   </div>
   )
 }

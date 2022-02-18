@@ -1,16 +1,28 @@
-.section-main__title {
+.home {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home__title {
   font-size: 40px;
   display: inline;
 }
 
-.section-main__subtitle {
+.home__subtitle {
   display: inline;
   font-size: 25px;
   color: #5e5e5e;
-  
 }
 
-.container-sectionmain {
-  display: flex;
-  flex-direction: column;
+@media (max-width: 768px) {
+  .home__title {
+    font-size: 35px;
+    display: inline;
+  }
+  .home__subtitle {
+    display: inline;
+    font-size: 20px;
+    color: #5e5e5e;
+  }
 }

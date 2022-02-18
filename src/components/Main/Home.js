@@ -2,12 +2,11 @@ import './Home.css'
 
 const Home = () => {
   return (
-    <div className="section-main">
-      <div className="container-sectionmain">
-      <h1 className="section-main__title">Santiago Barreto</h1>
-      <h2 className="section-main__subtitle">Desarrollador web</h2>
-      </div>     
+    <div className="home">
+        <h2 className="home__title">Santiago Barreto</h2>
+        <h3 className="home__subtitle">Desarrollador web</h3>
     </div>
+
   )
 }
 
