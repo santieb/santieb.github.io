@@ -1,8 +1,16 @@
-.h1 {
+.section-main__title {
   font-size: 40px;
+  display: inline;
 }
 
-.h2 {
+.section-main__subtitle {
+  display: inline;
   font-size: 25px;
   color: #5e5e5e;
+  
+}
+
+.container-sectionmain {
+  display: flex;
+  flex-direction: column;
 }

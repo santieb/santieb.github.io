@@ -9,15 +9,17 @@ const App = () => {
 
   return (
     <div className="App">
+      <div class="header__me">
       <Header/>
+      </div>
       <div class="presentation">
         <Main id={getState}/>
       </div>
       <div class="menu-nav">
       <ul>
-        <li><a onClick={() => SetState(0)}><img src={icons.home}></img></a></li>
-        <li><a onClick={() => SetState(1)}><img src={icons.user}></img></a></li>
-        <li><a onClick={() => SetState(2)}><img src={icons.project}></img></a></li>
+        <li><a href="#" onClick={() => SetState(0)}><img src={icons.home}></img></a></li>
+        <li><a href="#" onClick={() => SetState(1)}><img src={icons.user}></img></a></li>
+        <li><a href="#" onClick={() => SetState(2)}><img src={icons.project}></img></a></li>
       </ul>
       </div>
     </div>

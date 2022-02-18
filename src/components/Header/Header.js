@@ -3,7 +3,6 @@ import icons from '../../assets/icons/icons'
 
 const Header = () => {
   return (
-    <div class="header__me">
       <div class="me">
       <img class="header__me__img" src={icons.me} alt="me"></img>
       <h2 class="header__title">Santiago Barreto</h2>
@@ -18,7 +17,6 @@ const Header = () => {
           </ul>
         </div>
       </div>
-    </div>
   )
 }
 

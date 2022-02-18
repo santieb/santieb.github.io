@@ -36,3 +36,10 @@
 .carousel {
   padding: 0.5rem 4rem;
 }
+
+@media (max-width: 768px) {
+  .me__description {
+    font-size: 1.2rem;
+    padding: 2rem 3rem;
+  }
+}

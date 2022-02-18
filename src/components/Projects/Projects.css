@@ -1,8 +1,5 @@
 .gallery {
-  width: 100%;
-  max-width: 1200px;
   height: 530px;
-  max-height: 1200px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -38,4 +35,11 @@
 
 .githuburl:hover {
   color: blue;
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    overflow-y: visible;
+    height: auto;
+  }
 }
