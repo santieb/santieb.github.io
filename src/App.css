@@ -19,13 +19,7 @@
   display: inline-grid;
   width: 55rem;
   min-height: 83vh;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 100vw));
-}
-
-.nav {
-  position: absolute;
-  background-color: #fff;
-  border-radius: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 100vw));
 }
 
 .items {
@@ -40,15 +34,17 @@
   cursor: pointer
 }
 
+.menu-nav {
+  position: absolute;
+  margin-left: 150vh;
+  margin-top: 10vh;
+}
+
 .menu-nav img {
     margin-top: 9px;
 }
 
 .menu-nav ul {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    margin-left: 7vh;
-    margin-top: 15vh;
     display: flex;
     flex-direction: column;
 }
@@ -56,14 +52,12 @@
 .menu-nav ul li {
     list-style: none;
     margin: 10px;
-
-}
-.menu-nav ul li {
     color: #000000;
     font-size: 25px;
     line-height: 50px;
     transition: .5s;
 }
+
 .menu-nav ul li .fa:hover {
     color: #ffffff;
 }
@@ -93,7 +87,11 @@
     background-color: #e4405f;
 }
 
-@media (max-width: 768px) {
+.menu-nav-mobile {
+  display: none;
+}
+
+@media (max-width: 1280px) {
   .presentation {
     border-radius: none;
     border-top-right-radius: 0px;
@@ -105,10 +103,47 @@
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     display: inline-grid;
-    grid-template-columns: repeat(auto-fill, minmax(20rem, 100vw));
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 100vw));
   }
 
   .App {
     padding: 0rem;
   }
+
+  .menu-nav {
+      display: none;
+  }
+  
+  .menu-nav-mobile {
+    background-color: #c2c2cc;
+    position: sticky;
+    top: 0.01px;
+    display: block;
+    width: 100%;
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.08);
+  }
+
+  .menu-nav-mobile ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .menu-nav-mobile ul li {
+    display: flex;
+    font-size: 25px;
+    line-height: 50px;
+    transition: .5s;
+  }
+
+  .menu-nav-mobile ul li a {
+    text-decoration: none;
+    width: 33.3333333333333333vw;
+    background-color: white;
+    transition: 0.5s;
+  }
+
+  .menu-nav-mobile ul li a:hover {
+   background-color: #ffcbcb;
+  }
+
 }

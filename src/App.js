@@ -6,13 +6,21 @@ import { useState } from 'react'
 
 const App = () => {
   const [ getState, SetState ] = useState(0)
-
+  
   return (
+    
     <div className="App">
+            <div class="menu-nav-mobile">
+      <ul>
+        <li><a href="#" onClick={() => SetState(0)}>Inicio</a></li>
+        <li><a href="#" onClick={() => SetState(1)}>Sobre mi</a></li>
+        <li><a href="#" onClick={() => SetState(2)}>Projectos</a></li>
+      </ul>
+      </div>
       <div class="header__me">
       <Header/>
       </div>
-      <div class="presentation">
+      <div className="presentation">
         <Main id={getState}/>
       </div>
       <div class="menu-nav">

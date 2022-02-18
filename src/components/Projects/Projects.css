@@ -37,7 +37,7 @@
   color: blue;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1280px) {
   .gallery {
     overflow-y: visible;
     height: auto;
